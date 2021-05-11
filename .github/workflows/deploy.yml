@@ -33,7 +33,7 @@ jobs:
           git config --global user.email "ykrui1995@gmail.com"
           git config --global user.name "yukerui"
           npm install hexo-cli -g
-          npm install
+          sudo rm -rf node_modules package-lock.json && npm install
 
       - name: Deploy
         run: |
