@@ -103,5 +103,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:yukerui/blog.git
+  repo: git@github.com:yukerui/yukerui.github.io.git
   branch: main
