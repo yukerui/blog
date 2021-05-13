@@ -93,7 +93,7 @@ exclude_generator:
 deploy:
   type: git
   repository: git@github.com:yukerui/yukerui.github.io.git
-  branch: master
+  branch: main
 
 sitemap:
     path: sitemap.xml
