@@ -92,7 +92,7 @@ exclude_generator:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@github.com:yukerui/blog.git
+  repository: git@github.com:yukerui/yukerui.github.io.git
   branch: master
 
 sitemap:
