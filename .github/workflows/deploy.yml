@@ -34,6 +34,7 @@ jobs:
           git config --global user.name "yukerui"
           npm install hexo-cli -g
           sudo rm -rf node_modules package-lock.json && npm install
+          npm install hexo-deployer-git –save
 
       - name: Deploy
         run: |
